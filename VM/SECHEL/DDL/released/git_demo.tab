@@ -1,0 +1,14 @@
+create table git_demo (
+    id      number,
+    feld_1  varchar2(30),
+    feld_2  number
+)
+;
+
+alter table git_demo
+  add feld_3 varchar2(64)
+;
+alter table git_demo 
+  drop column feld_2
+;
+
